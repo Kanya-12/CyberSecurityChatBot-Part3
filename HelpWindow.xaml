@@ -1,0 +1,111 @@
+<Window x:Class="CyberSecurityChatBot.HelpWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="KANYA SHIELD Help and Resources" Height="600" Width="800"
+        Background="#0B1020" Foreground="#FFFFFF" WindowStartupLocation="CenterOwner"
+        FontFamily="Segoe UI" FontSize="12">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Header -->
+        <Border Grid.Row="0" Background="#08102A" BorderBrush="#00E5FF" BorderThickness="0,0,0,2" Padding="20">
+            <TextBlock Text="📚 Help and Resources - Where to Get Support" FontSize="18" FontWeight="Bold" Foreground="#00E5FF"/>
+        </Border>
+
+        <!-- Search and Filter Panel -->
+        <Border Grid.Row="1" Background="#16213E" Padding="20,10" BorderBrush="#00E5FF" BorderThickness="0,1,0,1">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <!-- Search TextBox -->
+                <TextBox x:Name="SearchBox" Grid.Column="0" Height="35" 
+                        Background="#0B1020" Foreground="#FFFFFF" 
+                        BorderBrush="#00E5FF" BorderThickness="2"
+                        Padding="10,8" FontSize="12" VerticalAlignment="Center"
+                        KeyUp="SearchBox_KeyUp"/>
+                <TextBlock IsHitTestVisible="False" Text="Search resources..." VerticalAlignment="Center" Margin="15,0,0,0" 
+                          Foreground="#666666" FontSize="12">
+                    <TextBlock.Style>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="Visibility" Value="Collapsed"/>
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding Text, ElementName=SearchBox}" Value="">
+                                    <Setter Property="Visibility" Value="Visible"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </TextBlock.Style>
+                </TextBlock>
+
+                <!-- Category ComboBox -->
+                <ComboBox x:Name="CategoryCombo" Grid.Column="1" Height="35" Width="150" Margin="10,0,0,0"
+                         Background="#0B1020" Foreground="#FFFFFF" 
+                         BorderBrush="#00E5FF" BorderThickness="2"
+                         Padding="10,8" FontSize="12" VerticalAlignment="Center"
+                         SelectionChanged="CategoryCombo_SelectionChanged"/>
+
+                <!-- Clear Button -->
+                <Button Grid.Column="2" Width="80" Height="35" Margin="10,0,0,0"
+                       Background="#FF9500" Foreground="#0B1020" FontWeight="Bold" FontSize="11"
+                       Content="Clear" Cursor="Hand" Click="ClearButton_Click"/>
+            </Grid>
+        </Border>
+
+        <!-- Resources List -->
+        <Border Grid.Row="2" Background="#0B1020" Padding="10">
+            <ScrollViewer VerticalScrollBarVisibility="Auto">
+                <ItemsControl x:Name="ResourcesList" Background="#0B1020">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <Border Background="#16213E" BorderBrush="#00E5FF" BorderThickness="1" 
+                                   Padding="15" Margin="5" CornerRadius="5">
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="Auto"/>
+                                    </Grid.RowDefinitions>
+
+                                    <!-- Resource Name -->
+                                    <TextBlock Grid.Row="0" Text="{Binding Name}" FontSize="14" FontWeight="Bold" 
+                                              Foreground="#00E5FF" Margin="0,0,0,5"/>
+
+                                    <!-- Category Tag -->
+                                    <TextBlock Grid.Row="1" Text="{Binding Category}" FontSize="11" Foreground="#FF9500"
+                                              Margin="0,0,0,5" FontStyle="Italic"/>
+
+                                    <!-- Description -->
+                                    <TextBlock Grid.Row="2" Text="{Binding Description}" FontSize="12" 
+                                              Foreground="#FFFFFF" TextWrapping="Wrap" Margin="0,0,0,8"/>
+
+                                    <!-- URL as hyperlink -->
+                                    <TextBlock Grid.Row="3" Foreground="#00FF66" FontSize="11" Cursor="Hand">
+                                        <Hyperlink NavigateUri="{Binding Url}" RequestNavigate="Hyperlink_RequestNavigate">
+                                            🔗 Visit Resource
+                                        </Hyperlink>
+                                    </TextBlock>
+                                </Grid>
+                            </Border>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </ScrollViewer>
+        </Border>
+
+        <!-- Footer -->
+        <Border Grid.Row="3" Background="#08102A" BorderBrush="#00E5FF" BorderThickness="0,2,0,0" Padding="20">
+            <TextBlock Text="💡 Pro Tip: Use the search box to find resources by keyword, or filter by category." 
+                      FontSize="11" Foreground="#A0A0A0" TextWrapping="Wrap"/>
+        </Border>
+    </Grid>
+</Window>

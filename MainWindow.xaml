@@ -1,0 +1,188 @@
+<Window x:Class="CyberSecurityChatBot.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="KANYA SHIELD - Cybersecurity ChatBot" Height="800" Width="1400"
+        Background="#0A0E27" Foreground="#FFFFFF" WindowStartupLocation="CenterScreen"
+        FontFamily="Segoe UI" FontSize="13">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="280"/>
+            <!-- Left Sidebar -->
+            <ColumnDefinition Width="*"/>
+            <!-- Main Chat Area -->
+        </Grid.ColumnDefinitions>
+
+        <!-- LEFT SIDEBAR NAVIGATION -->
+        <Border Grid.Column="0" Background="#0F1629" BorderBrush="#1E2E4F" BorderThickness="0,0,1,0">
+            <StackPanel Orientation="Vertical">
+                <!-- Sidebar Header with Logo -->
+                <Border Background="#0D1220" Padding="20" BorderBrush="#1E2E4F" BorderThickness="0,0,0,1">
+                    <StackPanel Orientation="Vertical">
+                        <TextBlock Text="🛡️" FontSize="32" TextAlignment="Center" Foreground="#00E5FF" Margin="0,0,0,5"/>
+                        <TextBlock Text="KANYA SHIELD" FontSize="14" FontWeight="Bold" Foreground="#00E5FF" TextAlignment="Center" Margin="0,0,0,5"/>
+                        <TextBlock Text="Cybersecurity AI" FontSize="10" Foreground="#00FF66" TextAlignment="Center"/>
+                    </StackPanel>
+                </Border>
+
+                <!-- AI Profile Section -->
+                <Border Background="#141D33" Padding="15" Margin="10,15,10,0" BorderBrush="#1E2E4F" BorderThickness="1">
+                    <StackPanel Orientation="Vertical">
+                        <Ellipse Width="60" Height="60" Fill="#00E5FF" Opacity="0.2" HorizontalAlignment="Center" Margin="0,0,0,10"/>
+                        <TextBlock Text="AI Assistant" FontSize="12" FontWeight="Bold" Foreground="#00E5FF" TextAlignment="Center" Margin="0,0,0,5"/>
+                        <TextBlock Text="Status: Online" FontSize="10" Foreground="#00FF66" TextAlignment="Center" Margin="0,0,0,10"/>
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                            <Ellipse Width="8" Height="8" Fill="#00FF66" Margin="0,0,5,0"/>
+                            <TextBlock Text="Ready to chat" FontSize="9" Foreground="#A0A0A0" VerticalAlignment="Center"/>
+                        </StackPanel>
+                    </StackPanel>
+                </Border>
+
+                <!-- Navigation Buttons -->
+                <TextBlock Text="QUICK ACCESS" FontSize="10" FontWeight="Bold" Foreground="#6B7896" Margin="15,20,15,10"/>
+
+                <Button Content="💬 New Chat" Height="40" Margin="10,5,10,0" Background="#1E2E4F" Foreground="#00E5FF" 
+                        BorderBrush="#00E5FF" BorderThickness="1" FontWeight="Bold" Cursor="Hand"/>
+                <Button Content="⭐ Favorites" Height="40" Margin="10,5,10,0" Background="#1E2E4F" Foreground="#A0A0A0" 
+                        BorderBrush="#2A3A5F" BorderThickness="1" FontWeight="Bold" Cursor="Hand"/>
+                <Button Content="📊 Statistics" Height="40" Margin="10,5,10,0" Background="#1E2E4F" Foreground="#A0A0A0" 
+                        BorderBrush="#2A3A5F" BorderThickness="1" FontWeight="Bold" Cursor="Hand"/>
+                <Button Content="⚙️ Settings" Height="40" Margin="10,5,10,0" Background="#1E2E4F" Foreground="#A0A0A0" 
+                        BorderBrush="#2A3A5F" BorderThickness="1" FontWeight="Bold" Cursor="Hand"/>
+
+                <!-- Topics + Quick Questions as sidebar tabs -->
+                <TabControl Margin="10" Background="#0F1629" BorderBrush="#1E2E4F" BorderThickness="1">
+                    <TabItem Header="Topics" Background="#0D1220">
+                        <ScrollViewer VerticalScrollBarVisibility="Auto" Height="160">
+                            <StackPanel Orientation="Vertical" Margin="5,5,5,5">
+                                <Button Content="🔐 Password Security" Height="35" Background="#0A0E27" Foreground="#A0A0A0" 
+                                        BorderBrush="#1E2E4F" BorderThickness="1" FontWeight="Normal" Cursor="Hand" HorizontalContentAlignment="Left" Padding="10,0" Margin="0,3,0,0" Click="SidebarQuick_Click"/>
+                                <Button Content="🎣 Phishing Attacks" Height="35" Background="#0A0E27" Foreground="#A0A0A0" 
+                                        BorderBrush="#1E2E4F" BorderThickness="1" FontWeight="Normal" Cursor="Hand" HorizontalContentAlignment="Left" Padding="10,0" Margin="0,3,0,0" Click="SidebarQuick_Click"/>
+                                <Button Content="🔑 Two-Factor Auth" Height="35" Background="#0A0E27" Foreground="#A0A0A0" 
+                                        BorderBrush="#1E2E4F" BorderThickness="1" FontWeight="Normal" Cursor="Hand" HorizontalContentAlignment="Left" Padding="10,0" Margin="0,3,0,0" Click="SidebarQuick_Click"/>
+                                <Button Content="🛡️ Malware Protection" Height="35" Background="#0A0E27" Foreground="#A0A0A0" 
+                                        BorderBrush="#1E2E4F" BorderThickness="1" FontWeight="Normal" Cursor="Hand" HorizontalContentAlignment="Left" Padding="10,0" Margin="0,3,0,0" Click="SidebarQuick_Click"/>
+                                <Button Content="🌐 Privacy Rights" Height="35" Background="#0A0E27" Foreground="#A0A0A0" 
+                                        BorderBrush="#1E2E4F" BorderThickness="1" FontWeight="Normal" Cursor="Hand" HorizontalContentAlignment="Left" Padding="10,0" Margin="0,3,0,0" Click="SidebarQuick_Click"/>
+                            </StackPanel>
+                        </ScrollViewer>
+                    </TabItem>
+                    <TabItem Header="Quick Questions" Background="#0D1220">
+                        <ScrollViewer VerticalScrollBarVisibility="Auto" Height="160">
+                            <StackPanel Orientation="Vertical" Margin="5,5,5,5">
+                                <Button Content="What is Password Security?" Height="35" Background="#0A0E27" Foreground="#A0A0A0" BorderBrush="#1E2E4F" BorderThickness="1" Cursor="Hand" HorizontalContentAlignment="Left" Padding="10,0" Margin="0,3,0,0" Click="SidebarQuick_Click"/>
+                                <Button Content="What is Phishing?" Height="35" Background="#0A0E27" Foreground="#A0A0A0" BorderBrush="#1E2E4F" BorderThickness="1" Cursor="Hand" HorizontalContentAlignment="Left" Padding="10,0" Margin="0,3,0,0" Click="SidebarQuick_Click"/>
+                                <Button Content="What is Two-Factor Authentication?" Height="35" Background="#0A0E27" Foreground="#A0A0A0" BorderBrush="#1E2E4F" BorderThickness="1" Cursor="Hand" HorizontalContentAlignment="Left" Padding="10,0" Margin="0,3,0,0" Click="SidebarQuick_Click"/>
+                                <Button Content="How to Report a Scam" Height="35" Background="#0A0E27" Foreground="#A0A0A0" BorderBrush="#1E2E4F" BorderThickness="1" Cursor="Hand" HorizontalContentAlignment="Left" Padding="10,0" Margin="0,3,0,0" Click="SidebarQuick_Click"/>
+                                <Button Content="I need to vent" Height="35" Background="#0A0E27" Foreground="#A0A0A0" BorderBrush="#1E2E4F" BorderThickness="1" Cursor="Hand" HorizontalContentAlignment="Left" Padding="10,0" Margin="0,3,0,0" Click="SidebarQuick_Click"/>
+                            </StackPanel>
+                        </ScrollViewer>
+                    </TabItem>
+                </TabControl>
+
+                <!-- Footer -->
+                <TextBlock Text="v1.0 - Powered by AI" FontSize="9" Foreground="#4A5A7A" TextAlignment="Center" Margin="0,20,0,10" VerticalAlignment="Bottom"/>
+            </StackPanel>
+        </Border>
+
+        <!-- MAIN CHAT AREA -->
+        <Border Grid.Column="1" Background="#0A0E27">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <!-- Top Header with ASCII Art -->
+                    <RowDefinition Height="*"/>
+                    <!-- Chat Messages Area -->
+                    <RowDefinition Height="Auto"/>
+                    <!-- Quick Tabs -->
+                    <RowDefinition Height="Auto"/>
+                    <!-- Input Area -->
+                </Grid.RowDefinitions>
+
+                <!-- TOP HEADER WITH ASCII ART -->
+                <Border Grid.Row="0" Background="#0F1629" BorderBrush="#1E2E4F" BorderThickness="0,0,0,1" Padding="30,20">
+                    <StackPanel Orientation="Vertical">
+                        <!-- ASCII Art Display -->
+                        <TextBlock Text="╔═══════════════════════════════════════╗" FontFamily="Courier New" FontSize="11" 
+                                   Foreground="#00E5FF" TextAlignment="Center" Margin="0,0,0,5"/>
+                        <TextBlock Text="║   🛡 KANYA SHIELD - CYBERSECURITY  🛡️  ║" FontFamily="Courier New" FontSize="11" 
+                                   Foreground="#00FF66" TextAlignment="Center" Margin="0,0,0,3" FontWeight="Bold"/>
+                        <TextBlock Text="║      Your AI Digital Guardian           ║" FontFamily="Courier New" FontSize="10" 
+                                   Foreground="#A0A0A0" TextAlignment="Center" Margin="0,0,0,5"/>
+                        <TextBlock Text="╚═══════════════════════════════════════╝" FontFamily="Courier New" FontSize="11" 
+                                   Foreground="#00E5FF" TextAlignment="Center" Margin="0,0,0,10"/>
+
+                        <TextBlock Text="Welcome to your cybersecurity AI assistant. Ask any questions about staying safe online." 
+                                   FontSize="12" Foreground="#A0A0A0" TextAlignment="Center"/>
+                    </StackPanel>
+                </Border>
+
+                <!-- CHAT MESSAGES AREA -->
+                <Border Grid.Row="1" Background="#0A0E27" Margin="20">
+                    <ScrollViewer x:Name="ChatScrollViewer" VerticalScrollBarVisibility="Auto" Background="Transparent" Padding="0">
+                        <StackPanel x:Name="ChatMessagesPanel" Orientation="Vertical" Margin="0"/>
+                    </ScrollViewer>
+                </Border>
+
+                <!-- QUICK TABS / QUICK ACCESS BUTTONS -->
+                <Border Grid.Row="2" Background="#0F1629" BorderBrush="#1E2E4F" BorderThickness="0,1,0,0" Padding="20,15">
+                    <StackPanel Orientation="Vertical">
+                        <TextBlock Text="Quick Questions:" FontSize="11" FontWeight="Bold" Foreground="#00E5FF" Margin="0,0,0,10"/>
+                        <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Disabled">
+                            <StackPanel x:Name="QuickTabsPanel" Orientation="Horizontal" Margin="0"/>
+                        </ScrollViewer>
+                    </StackPanel>
+                </Border>
+
+                <!-- VENTING STATUS & QUICK ACTIONS -->
+                <Border Grid.Row="2" Background="#0F1629" BorderBrush="#1E2E4F" BorderThickness="0,1,0,0" Padding="10" Visibility="Visible">
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" x:Name="VentingActionsPanel">
+                        <TextBlock x:Name="VentingStatusText" Text="" FontSize="12" Foreground="#FFB86C" VerticalAlignment="Center" Margin="0,0,10,0"/>
+                        <Button x:Name="BreathingButton" Content="Breathing" Margin="5,0,0,0" Padding="10,6" Background="#00E5FF" Foreground="#0B1020" Click="BreathingButton_Click"/>
+                        <Button x:Name="GroundingButton" Content="Grounding" Margin="5,0,0,0" Padding="10,6" Background="#1E2E4F" Foreground="#00E5FF" Click="GroundingButton_Click"/>
+                        <Button x:Name="StopVentingButton" Content="Stop Venting" Margin="5,0,0,0" Padding="10,6" Background="#FF6B6B" Foreground="#0B1020" Click="StopVentingButton_Click"/>
+                    </StackPanel>
+                </Border>
+
+                <!-- INPUT AREA -->
+                <Border Grid.Row="3" Background="#0F1629" BorderBrush="#1E2E4F" BorderThickness="0,1,0,0" Padding="20">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+
+                        <!-- Message Input TextBox -->
+                        <TextBox x:Name="UserInput" Grid.Column="0" Height="50" 
+                                Background="#141D33" Foreground="#666666" 
+                                BorderBrush="#00E5FF" BorderThickness="2"
+                                Padding="15,12" FontSize="13" VerticalAlignment="Center"
+                                VerticalContentAlignment="Center"
+                                KeyDown="UserInput_KeyDown"
+                                GotFocus="UserInput_GotFocus"
+                                LostFocus="UserInput_LostFocus"
+                                Text="Type your message here..."/>
+
+                        <!-- Help Button -->
+                        <Button Grid.Column="1" Width="50" Height="50" Margin="10,0,0,0"
+                               Background="#FF9500" Foreground="#0B1020" FontWeight="Bold" FontSize="16"
+                               Content="📚" Cursor="Hand" Click="HelpButton_Click"/>
+
+                        <!-- Send Button -->
+                        <Button Grid.Column="2" Width="50" Height="50" Margin="10,0,0,0"
+                               Background="#00E5FF" Foreground="#0B1020" FontWeight="Bold" FontSize="16"
+                               Content="➤" Cursor="Hand" Click="SendButton_Click"/>
+
+                        <!-- Clear Chat Button -->
+                        <Button Grid.Column="3" Width="50" Height="50" Margin="10,0,0,0"
+                               Background="#1E2E4F" Foreground="#FF6B6B" FontWeight="Bold" FontSize="14"
+                               Content="🗑" Cursor="Hand"/>
+                    </Grid>
+                </Border>
+            </Grid>
+        </Border>
+    </Grid>
+</Window>

@@ -1,0 +1,865 @@
+{
+  "UserName": "",
+  "FavoriteTopics": [],
+  "Conversations": [
+    {
+      "Timestamp": "2026-05-29T11:49:32.6531677Z",
+      "Role": "user",
+      "Message": "Kanya"
+    },
+    {
+      "Timestamp": "2026-05-29T11:49:32.6860696Z",
+      "Role": "bot",
+      "Message": "Welcome Kanya! I am KANYA SHIELD, your Cybersecurity Awareness Assistant. I\u0027m here to help you stay safe online and learn about cybersecurity. What would you like to know?"
+    },
+    {
+      "Timestamp": "2026-05-29T11:50:00.9192149Z",
+      "Role": "user",
+      "Message": "Password security"
+    },
+    {
+      "Timestamp": "2026-05-29T11:50:00.9267475Z",
+      "Role": "bot",
+      "Message": "A password manager securely stores and generates unique passwords for each account. Use reputable managers (Bitwarden, 1Password) and protect them with a strong master password and 2FA."
+    },
+    {
+      "Timestamp": "2026-05-29T11:50:21.9130379Z",
+      "Role": "user",
+      "Message": "tell me more"
+    },
+    {
+      "Timestamp": "2026-05-29T11:50:21.9183674Z",
+      "Role": "bot",
+      "Message": "Never reuse passwords across different accounts. Consider using a password manager to keep track securely."
+    },
+    {
+      "Timestamp": "2026-05-29T11:50:42.1834574Z",
+      "Role": "user",
+      "Message": "now can you tell me a joke"
+    },
+    {
+      "Timestamp": "2026-05-29T11:50:42.1864391Z",
+      "Role": "bot",
+      "Message": "Why did the hacker go to school? To improve their malware skills!"
+    },
+    {
+      "Timestamp": "2026-05-29T11:51:04.541891Z",
+      "Role": "user",
+      "Message": "tell me more"
+    },
+    {
+      "Timestamp": "2026-05-29T11:51:04.5459687Z",
+      "Role": "bot",
+      "Message": "Avoid using personal information like birthdays or names in your password."
+    },
+    {
+      "Timestamp": "2026-05-29T11:51:36.526514Z",
+      "Role": "user",
+      "Message": "Can you calm me down i have stress"
+    },
+    {
+      "Timestamp": "2026-05-29T11:51:36.5308019Z",
+      "Role": "bot",
+      "Message": "Help Resources: FBI IC3 (ic3.gov), FTC (identitytheft.gov), local law enforcement, banks\u0027 fraud teams, and official vendor support pages. For training: SANS, OWASP, and vendor advisories."
+    },
+    {
+      "Timestamp": "2026-05-29T11:52:41.4055637Z",
+      "Role": "user",
+      "Message": "Thank you bye!"
+    },
+    {
+      "Timestamp": "2026-05-29T11:52:41.4107383Z",
+      "Role": "bot",
+      "Message": "That\u0027s nice to hear \u2014 tell me more or ask a cybersecurity question."
+    },
+    {
+      "Timestamp": "2026-05-29T17:53:41.8019611Z",
+      "Role": "user",
+      "Message": "Kanya"
+    },
+    {
+      "Timestamp": "2026-05-29T17:53:41.8214199Z",
+      "Role": "bot",
+      "Message": "Welcome Kanya! I am KANYA SHIELD, your Cybersecurity Awareness Assistant. I\u0027m here to help you stay safe online and learn about cybersecurity. What would you like to know?"
+    },
+    {
+      "Timestamp": "2026-05-29T17:54:12.6388694Z",
+      "Role": "user",
+      "Message": "Phishing Attacks"
+    },
+    {
+      "Timestamp": "2026-05-29T17:54:12.6431714Z",
+      "Role": "bot",
+      "Message": "Spear phishing is a targeted phishing attack aimed at a specific person or organization, often using personal details. Be cautious with unexpected messages and verify requests independently."
+    },
+    {
+      "Timestamp": "2026-05-29T17:54:36.1572443Z",
+      "Role": "user",
+      "Message": "tell me more"
+    },
+    {
+      "Timestamp": "2026-05-29T17:54:36.1627496Z",
+      "Role": "bot",
+      "Message": "Look for spelling errors and suspicious requests for personal information - these are red flags."
+    },
+    {
+      "Timestamp": "2026-05-29T17:54:50.4023287Z",
+      "Role": "user",
+      "Message": "tell me more"
+    },
+    {
+      "Timestamp": "2026-05-29T17:54:50.4069582Z",
+      "Role": "bot",
+      "Message": "Look for spelling errors and suspicious requests for personal information - these are red flags."
+    },
+    {
+      "Timestamp": "2026-05-29T17:57:16.0985312Z",
+      "Role": "user",
+      "Message": "okay do you now me"
+    },
+    {
+      "Timestamp": "2026-05-29T17:57:16.1053728Z",
+      "Role": "bot",
+      "Message": "Let me help you with cybersecurity! I can answer questions about phishing, passwords, malware, privacy, VPNs, firewalls, ransomware, or security best practices. What interests you?"
+    },
+    {
+      "Timestamp": "2026-05-29T17:57:35.6706654Z",
+      "Role": "user",
+      "Message": "am feeling sad"
+    },
+    {
+      "Timestamp": "2026-05-29T17:57:35.6755639Z",
+      "Role": "bot",
+      "Message": "I\u0027d like to help! Could you ask about one of these topics: phishing, passwords, malware, ransomware, two-factor authentication, privacy, VPNs, firewalls, social engineering, or scams?"
+    },
+    {
+      "Timestamp": "2026-05-29T17:57:58.0038366Z",
+      "Role": "user",
+      "Message": "I need to vent"
+    },
+    {
+      "Timestamp": "2026-05-29T17:57:58.0085386Z",
+      "Role": "bot",
+      "Message": "Would you like to try a short breathing exercise or get practical cybersecurity steps? You can keep venting, ask for breathing or grounding techniques, or say \u0027stop venting\u0027 to switch to practical steps. If you\u0027d like to keep talking about how you feel, just go on \u2014 I\u0027m listening. Say \u0027stop venting\u0027 when you want practical help."
+    },
+    {
+      "Timestamp": "2026-05-29T18:01:36.544015Z",
+      "Role": "user",
+      "Message": "Kanya"
+    },
+    {
+      "Timestamp": "2026-05-29T18:01:36.5640246Z",
+      "Role": "bot",
+      "Message": "Welcome Kanya! I am KANYA SHIELD, your Cybersecurity Awareness Assistant. I\u0027m here to help you stay safe online and learn about cybersecurity. What would you like to know?"
+    },
+    {
+      "Timestamp": "2026-05-29T18:02:03.6487531Z",
+      "Role": "user",
+      "Message": "Am stressed"
+    },
+    {
+      "Timestamp": "2026-05-29T18:02:03.6513015Z",
+      "Role": "bot",
+      "Message": "I\u0027m listening, Kanya. Tell me more if you\u0027d like to keep talking. You can keep venting, ask for breathing or grounding techniques, or say \u0027stop venting\u0027 to switch to practical steps. If you\u0027d like to keep talking about how you feel, just go on \u2014 I\u0027m listening. Say \u0027stop venting\u0027 when you want practical help."
+    },
+    {
+      "Timestamp": "2026-05-29T18:03:17.0776611Z",
+      "Role": "user",
+      "Message": "The is a module that is stressing me and i need to pass its exam"
+    },
+    {
+      "Timestamp": "2026-05-29T18:03:17.082321Z",
+      "Role": "bot",
+      "Message": "Would you like to try a short breathing exercise or get practical cybersecurity steps? You can keep venting, ask for breathing or grounding techniques, or say \u0027stop venting\u0027 to switch to practical steps. (You can say \u0027stop venting\u0027 to switch to technical help or ask \u0027what can I do\u0027 for practical steps.)"
+    },
+    {
+      "Timestamp": "2026-05-29T18:03:46.8696933Z",
+      "Role": "user",
+      "Message": "what can i do"
+    },
+    {
+      "Timestamp": "2026-05-29T18:03:46.8745544Z",
+      "Role": "bot",
+      "Message": "I\u0027m listening, Kanya. Tell me more if you\u0027d like to keep talking. You can keep venting, ask for breathing or grounding techniques, or say \u0027stop venting\u0027 to switch to practical steps. (You can say \u0027stop venting\u0027 to switch to technical help or ask \u0027what can I do\u0027 for practical steps.)"
+    },
+    {
+      "Timestamp": "2026-05-29T18:54:04.5159107Z",
+      "Role": "user",
+      "Message": "kanya"
+    },
+    {
+      "Timestamp": "2026-05-29T18:54:04.5407832Z",
+      "Role": "bot",
+      "Message": "Welcome Kanya! I am KANYA SHIELD, your Cybersecurity Awareness Assistant. I\u0027m here to help you stay safe online and learn about cybersecurity. What would you like to know?"
+    },
+    {
+      "Timestamp": "2026-05-29T18:54:27.8071091Z",
+      "Role": "user",
+      "Message": "malware protection"
+    },
+    {
+      "Timestamp": "2026-05-29T18:54:27.8161075Z",
+      "Role": "bot",
+      "Message": "To remove malware: disconnect from network, run reputable anti-malware scans in Safe Mode, quarantine/remove infected files, change credentials from a clean device, and restore from backups if needed."
+    },
+    {
+      "Timestamp": "2026-05-29T18:54:51.3506049Z",
+      "Role": "user",
+      "Message": "tell me more"
+    },
+    {
+      "Timestamp": "2026-05-29T18:54:51.3560566Z",
+      "Role": "bot",
+      "Message": "Be cautious when opening email attachments, especially from unknown senders."
+    },
+    {
+      "Timestamp": "2026-05-29T21:48:08.1211846Z",
+      "Role": "user",
+      "Message": "Kanya"
+    },
+    {
+      "Timestamp": "2026-05-29T21:48:08.1383735Z",
+      "Role": "bot",
+      "Message": "Welcome Kanya! I am KANYA SHIELD, your Cybersecurity Awareness Assistant. I\u0027m here to help you stay safe online and learn about cybersecurity. What would you like to know?"
+    },
+    {
+      "Timestamp": "2026-05-29T21:48:28.7047287Z",
+      "Role": "user",
+      "Message": "phishing"
+    },
+    {
+      "Timestamp": "2026-05-29T21:48:28.7103766Z",
+      "Role": "bot",
+      "Message": "Phishing is a social engineering attack where criminals impersonate trusted organizations by email, SMS, or websites to steal credentials, money, or personal data. Protect yourself by verifying senders, not clicking unknown links, and enabling 2FA."
+    },
+    {
+      "Timestamp": "2026-05-29T21:48:50.9971762Z",
+      "Role": "user",
+      "Message": "tell me more"
+    },
+    {
+      "Timestamp": "2026-05-29T21:48:51.0035641Z",
+      "Role": "bot",
+      "Message": "Phishing emails try to trick you into revealing sensitive information. Always verify the sender\u0027s email address."
+    },
+    {
+      "Timestamp": "2026-05-29T21:49:45.4164959Z",
+      "Role": "user",
+      "Message": "I am worried about phishing"
+    },
+    {
+      "Timestamp": "2026-05-29T21:49:45.4200854Z",
+      "Role": "bot",
+      "Message": "It\u0027s understandable to feel overwhelmed. You\u0027re not alone in this. You can keep venting, ask for breathing or grounding techniques, or say \u0027stop venting\u0027 to switch to practical steps. If you\u0027d like to keep talking about how you feel, just go on \u2014 I\u0027m listening. Say \u0027stop venting\u0027 when you want practical help."
+    },
+    {
+      "Timestamp": "2026-05-29T21:51:05.2991252Z",
+      "Role": "user",
+      "Message": "short breathing exercise"
+    },
+    {
+      "Timestamp": "2026-05-29T21:51:05.3029217Z",
+      "Role": "bot",
+      "Message": "Sometimes talking through the details helps clarify next steps. You can keep venting, ask for breathing or grounding techniques, or say \u0027stop venting\u0027 to switch to practical steps. (You can say \u0027stop venting\u0027 to switch to technical help or ask \u0027what can I do\u0027 for practical steps.)"
+    },
+    {
+      "Timestamp": "2026-05-29T21:51:26.3657621Z",
+      "Role": "user",
+      "Message": "Stop venting"
+    },
+    {
+      "Timestamp": "2026-05-29T21:51:26.372828Z",
+      "Role": "bot",
+      "Message": "I\u0027m listening, Kanya. Tell me more if you\u0027d like to keep talking. You can keep venting, ask for breathing or grounding techniques, or say \u0027stop venting\u0027 to switch to practical steps. (You can say \u0027stop venting\u0027 to switch to technical help or ask \u0027what can I do\u0027 for practical steps.)"
+    },
+    {
+      "Timestamp": "2026-06-21T21:35:12.1222765Z",
+      "Role": "user",
+      "Message": "Kanya"
+    },
+    {
+      "Timestamp": "2026-06-21T21:35:12.1414693Z",
+      "Role": "bot",
+      "Message": "Welcome Kanya! I am KANYA SHIELD, your Cybersecurity Awareness Assistant. I\u0027m here to help you stay safe online and learn about cybersecurity. What would you like to know?"
+    },
+    {
+      "Timestamp": "2026-06-21T21:35:46.3852124Z",
+      "Role": "user",
+      "Message": "What to do to avoid phishing"
+    },
+    {
+      "Timestamp": "2026-06-21T21:35:46.387928Z",
+      "Role": "bot",
+      "Message": "Avoid phishing by checking sender addresses, not following links in unsolicited messages, hovering over links to see actual URLs, verifying requests by phone, and using email filters and 2FA."
+    },
+    {
+      "Timestamp": "2026-06-21T21:36:02.3604833Z",
+      "Role": "user",
+      "Message": "tell me more"
+    },
+    {
+      "Timestamp": "2026-06-21T21:36:02.3671339Z",
+      "Role": "bot",
+      "Message": "Phishing emails try to trick you into revealing sensitive information. Always verify the sender\u0027s email address."
+    },
+    {
+      "Timestamp": "2026-06-21T21:36:35.5515438Z",
+      "Role": "user",
+      "Message": "okay now can you tell me a joke"
+    },
+    {
+      "Timestamp": "2026-06-21T21:36:35.5587522Z",
+      "Role": "bot",
+      "Message": "Why did the hacker go to school? To improve their malware skills!"
+    },
+    {
+      "Timestamp": "2026-06-21T21:36:52.4015609Z",
+      "Role": "user",
+      "Message": "haha tell me more"
+    },
+    {
+      "Timestamp": "2026-06-21T21:36:52.4055735Z",
+      "Role": "bot",
+      "Message": "Never click links in suspicious emails. Instead, navigate to the official website directly."
+    },
+    {
+      "Timestamp": "2026-06-21T21:37:42.750911Z",
+      "Role": "user",
+      "Message": "Am stressed about exams"
+    },
+    {
+      "Timestamp": "2026-06-21T21:37:42.7566043Z",
+      "Role": "bot",
+      "Message": "I\u0027m listening, Kanya. Tell me more if you\u0027d like to keep talking. You can keep venting, ask for breathing or grounding techniques, or say \u0027stop venting\u0027 to switch to practical steps. If you\u0027d like to keep talking about how you feel, just go on \u2014 I\u0027m listening. Say \u0027stop venting\u0027 when you want practical help."
+    },
+    {
+      "Timestamp": "2026-06-21T21:38:47.309383Z",
+      "Role": "user",
+      "Message": "the is this module that is stressing me and i need to pass it this semester"
+    },
+    {
+      "Timestamp": "2026-06-21T21:38:47.3152654Z",
+      "Role": "bot",
+      "Message": "Would you like to try a short breathing exercise or get practical cybersecurity steps? You can keep venting, ask for breathing or grounding techniques, or say \u0027stop venting\u0027 to switch to practical steps. (You can say \u0027stop venting\u0027 to switch to technical help or ask \u0027what can I do\u0027 for practical steps.)"
+    },
+    {
+      "Timestamp": "2026-06-21T21:40:52.3715554Z",
+      "Role": "user",
+      "Message": "Kanya"
+    },
+    {
+      "Timestamp": "2026-06-21T21:40:52.3937793Z",
+      "Role": "bot",
+      "Message": "Welcome Kanya! I am KANYA SHIELD, your Cybersecurity Awareness Assistant. I\u0027m here to help you stay safe online and learn about cybersecurity. What would you like to know?"
+    },
+    {
+      "Timestamp": "2026-06-21T21:41:27.8811096Z",
+      "Role": "user",
+      "Message": "Can we finish of our previous chat"
+    },
+    {
+      "Timestamp": "2026-06-21T21:41:27.8866595Z",
+      "Role": "bot",
+      "Message": "I specialize in cybersecurity topics. Would you like to know about: passwords, phishing, malware, privacy, 2FA, VPNs, firewalls, or how to report a scam?"
+    },
+    {
+      "Timestamp": "2026-06-21T21:56:11.6557095Z",
+      "Role": "user",
+      "Message": "Kanya"
+    },
+    {
+      "Timestamp": "2026-06-21T21:56:11.677344Z",
+      "Role": "bot",
+      "Message": "Welcome Kanya! I am KANYA SHIELD, your Cybersecurity Awareness Assistant. I\u0027m here to help you stay safe online and learn about cybersecurity. What would you like to know?"
+    },
+    {
+      "Timestamp": "2026-06-21T21:56:56.3712462Z",
+      "Role": "user",
+      "Message": "What can i do to Avoid Scamming"
+    },
+    {
+      "Timestamp": "2026-06-21T21:56:56.3754357Z",
+      "Role": "bot",
+      "Message": "Avoid phishing by checking sender addresses, not following links in unsolicited messages, hovering over links to see actual URLs, verifying requests by phone, and using email filters and 2FA."
+    },
+    {
+      "Timestamp": "2026-06-21T21:57:32.7608439Z",
+      "Role": "user",
+      "Message": "Not phishing \u0022Scamming\u0022"
+    },
+    {
+      "Timestamp": "2026-06-21T21:57:32.7660862Z",
+      "Role": "bot",
+      "Message": "Spear phishing is a targeted phishing attack aimed at a specific person or organization, often using personal details. Be cautious with unexpected messages and verify requests independently."
+    },
+    {
+      "Timestamp": "2026-06-21T21:58:12.4821688Z",
+      "Role": "user",
+      "Message": "i want to play games"
+    },
+    {
+      "Timestamp": "2026-06-21T21:58:12.485827Z",
+      "Role": "bot",
+      "Message": "Available games:\n\n1. Quiz\n2. Trivia\n3. Hangman\n4. Password Strength Checker\n\nYou can click the game buttons above or type the game name!"
+    },
+    {
+      "Timestamp": "2026-06-21T21:58:33.039862Z",
+      "Role": "user",
+      "Message": "1"
+    },
+    {
+      "Timestamp": "2026-06-21T21:58:33.0438695Z",
+      "Role": "bot",
+      "Message": "I specialize in cybersecurity topics. Would you like to know about: passwords, phishing, malware, privacy, 2FA, VPNs, firewalls, or how to report a scam?"
+    },
+    {
+      "Timestamp": "2026-06-21T21:58:59.9190236Z",
+      "Role": "user",
+      "Message": "goodbye"
+    },
+    {
+      "Timestamp": "2026-06-21T21:58:59.9236367Z",
+      "Role": "bot",
+      "Message": "I can assist with cybersecurity topics like: passwords, phishing, malware, two-factor authentication, VPNs, privacy, firewalls, social engineering, and scam reporting. Which would you like to explore?"
+    },
+    {
+      "Timestamp": "2026-06-21T22:17:11.5335163Z",
+      "Role": "user",
+      "Message": "Kanya"
+    },
+    {
+      "Timestamp": "2026-06-21T22:17:11.5557524Z",
+      "Role": "bot",
+      "Message": "Welcome Kanya! I am KANYA SHIELD, your Cybersecurity Awareness Assistant. I\u0027m here to help you stay safe online and learn about cybersecurity. What would you like to know?"
+    },
+    {
+      "Timestamp": "2026-06-21T22:17:26.1840435Z",
+      "Role": "user",
+      "Message": "phishing"
+    },
+    {
+      "Timestamp": "2026-06-21T22:17:26.1903543Z",
+      "Role": "bot",
+      "Message": "Phishing is a social engineering attack where criminals impersonate trusted organizations by email, SMS, or websites to steal credentials, money, or personal data. Protect yourself by verifying senders, not clicking unknown links, and enabling 2FA."
+    },
+    {
+      "Timestamp": "2026-06-21T22:17:41.7052055Z",
+      "Role": "user",
+      "Message": "tell me more"
+    },
+    {
+      "Timestamp": "2026-06-21T22:17:41.711297Z",
+      "Role": "bot",
+      "Message": "Look for spelling errors and suspicious requests for personal information - these are red flags."
+    },
+    {
+      "Timestamp": "2026-06-21T22:17:59.7092882Z",
+      "Role": "user",
+      "Message": "tell me more"
+    },
+    {
+      "Timestamp": "2026-06-21T22:17:59.7135109Z",
+      "Role": "bot",
+      "Message": "Look for spelling errors and suspicious requests for personal information - these are red flags."
+    },
+    {
+      "Timestamp": "2026-06-21T22:18:23.4392829Z",
+      "Role": "user",
+      "Message": "how do i avoid it"
+    },
+    {
+      "Timestamp": "2026-06-21T22:18:23.4469837Z",
+      "Role": "bot",
+      "Message": "Avoid phishing by checking sender addresses, not following links in unsolicited messages, hovering over links to see actual URLs, verifying requests by phone, and using email filters and 2FA."
+    },
+    {
+      "Timestamp": "2026-06-21T22:18:54.1490906Z",
+      "Role": "user",
+      "Message": "okay, now can am stressed about life"
+    },
+    {
+      "Timestamp": "2026-06-21T22:18:54.1588809Z",
+      "Role": "bot",
+      "Message": "Sometimes talking through the details helps clarify next steps. You can keep venting, ask for breathing or grounding techniques, or say \u0027stop venting\u0027 to switch to practical steps. If you\u0027d like to keep talking about how you feel, just go on \u2014 I\u0027m listening. Say \u0027stop venting\u0027 when you want practical help."
+    },
+    {
+      "Timestamp": "2026-06-21T22:20:20.695411Z",
+      "Role": "user",
+      "Message": "stop venting"
+    },
+    {
+      "Timestamp": "2026-06-21T22:20:20.6995577Z",
+      "Role": "bot",
+      "Message": "I\u0027m listening, Kanya. Tell me more if you\u0027d like to keep talking. You can keep venting, ask for breathing or grounding techniques, or say \u0027stop venting\u0027 to switch to practical steps. (You can say \u0027stop venting\u0027 to switch to technical help or ask \u0027what can I do\u0027 for practical steps.)"
+    },
+    {
+      "Timestamp": "2026-06-21T22:20:45.2555957Z",
+      "Role": "user",
+      "Message": "can you tell me a joke"
+    },
+    {
+      "Timestamp": "2026-06-21T22:20:45.2604951Z",
+      "Role": "bot",
+      "Message": "How many cybersecurity professionals does it take to change a lightbulb? Three: one to change it and two to discuss how the old one could have been exploited."
+    },
+    {
+      "Timestamp": "2026-06-21T22:21:05.5562201Z",
+      "Role": "user",
+      "Message": "goodbye"
+    },
+    {
+      "Timestamp": "2026-06-21T22:21:05.5677695Z",
+      "Role": "bot",
+      "Message": "Goodbye, Kanya! Keep learning, stay curious, and protect your digital life. See you soon! \uD83D\uDCAA\n\n[App will close in a moment...]"
+    },
+    {
+      "Timestamp": "2026-06-21T22:22:20.3351663Z",
+      "Role": "user",
+      "Message": "kanya"
+    },
+    {
+      "Timestamp": "2026-06-21T22:22:20.3540572Z",
+      "Role": "bot",
+      "Message": "Welcome Kanya! I am KANYA SHIELD, your Cybersecurity Awareness Assistant. I\u0027m here to help you stay safe online and learn about cybersecurity. What would you like to know?"
+    },
+    {
+      "Timestamp": "2026-06-21T22:22:27.2361312Z",
+      "Role": "user",
+      "Message": "\uD83D\uDD10 Password Security"
+    },
+    {
+      "Timestamp": "2026-06-21T22:22:27.2447239Z",
+      "Role": "bot",
+      "Message": "Password security is the practice of protecting user accounts with strong, unique passwords and authentication methods. A strong password has 12\u002B characters with uppercase, lowercase, numbers, and symbols. Key practices: use a password manager for unique passwords on each site, enable 2FA for important accounts, avoid reusing passwords, never share passwords, and change them if you suspect a breach."
+    },
+    {
+      "Timestamp": "2026-06-21T22:22:30.8924813Z",
+      "Role": "user",
+      "Message": "\uD83C\uDFA3 Phishing Attacks"
+    },
+    {
+      "Timestamp": "2026-06-21T22:22:30.8951417Z",
+      "Role": "bot",
+      "Message": "Spear phishing is a targeted phishing attack aimed at a specific person or organization, often using personal details. Be cautious with unexpected messages and verify requests independently."
+    },
+    {
+      "Timestamp": "2026-06-21T22:22:35.8757588Z",
+      "Role": "user",
+      "Message": "\uD83D\uDD11 Two-Factor Auth"
+    },
+    {
+      "Timestamp": "2026-06-21T22:22:35.8804602Z",
+      "Role": "bot",
+      "Message": "Two-factor authentication (2FA) adds an extra verification step such as an app code or hardware key. Use authenticator apps or hardware tokens rather than SMS when possible."
+    },
+    {
+      "Timestamp": "2026-06-21T22:22:38.7661013Z",
+      "Role": "user",
+      "Message": "\uD83D\uDEE1\uFE0F Malware Protection"
+    },
+    {
+      "Timestamp": "2026-06-21T22:22:38.7685324Z",
+      "Role": "bot",
+      "Message": "To remove malware: disconnect from network, run reputable anti-malware scans in Safe Mode, quarantine/remove infected files, change credentials from a clean device, and restore from backups if needed."
+    },
+    {
+      "Timestamp": "2026-06-21T22:22:42.1795762Z",
+      "Role": "user",
+      "Message": "\uD83C\uDF10 Privacy Rights"
+    },
+    {
+      "Timestamp": "2026-06-21T22:22:42.1851595Z",
+      "Role": "bot",
+      "Message": "Be mindful of location sharing and geotagged posts \u2014 attackers can use these to target you physically or time attacks."
+    },
+    {
+      "Timestamp": "2026-06-21T22:22:47.3082656Z",
+      "Role": "user",
+      "Message": "What is Password Security?"
+    },
+    {
+      "Timestamp": "2026-06-21T22:22:47.3154081Z",
+      "Role": "bot",
+      "Message": "Your curiosity about online safety is excellent. Let me explain this in detail. Password security is the practice of protecting user accounts with strong, unique passwords and authentication methods. A strong password has 12\u002B characters with uppercase, lowercase, numbers, and symbols. Key practices: use a password manager for unique passwords on each site, enable 2FA for important accounts, avoid reusing passwords, never share passwords, and change them if you suspect a breach."
+    },
+    {
+      "Timestamp": "2026-06-21T22:22:49.7416791Z",
+      "Role": "user",
+      "Message": "What is Phishing?"
+    },
+    {
+      "Timestamp": "2026-06-21T22:22:49.7438334Z",
+      "Role": "bot",
+      "Message": "I love your interest in understanding security better. Here\u0027s what you need to know. Phishing is a social engineering attack where criminals impersonate trusted organizations by email, SMS, or websites to steal credentials, money, or personal data. Protect yourself by verifying senders, not clicking unknown links, and enabling 2FA."
+    },
+    {
+      "Timestamp": "2026-06-21T22:22:58.1106677Z",
+      "Role": "user",
+      "Message": "What is Two-Factor Authentication?"
+    },
+    {
+      "Timestamp": "2026-06-21T22:22:58.1158744Z",
+      "Role": "bot",
+      "Message": "I love your interest in understanding security better. Here\u0027s what you need to know. Two-factor authentication (2FA) adds an extra verification step such as an app code or hardware key. Use authenticator apps or hardware tokens rather than SMS when possible."
+    },
+    {
+      "Timestamp": "2026-06-21T22:23:01.4288486Z",
+      "Role": "user",
+      "Message": "How to Report a Scam"
+    },
+    {
+      "Timestamp": "2026-06-21T22:23:01.4312594Z",
+      "Role": "bot",
+      "Message": "Use long passphrases (12\u002B characters), combine upper/lowercase, numbers and symbols. Prefer randomly generated passwords from a manager and never reuse passwords across accounts."
+    },
+    {
+      "Timestamp": "2026-06-21T22:23:25.3313194Z",
+      "Role": "user",
+      "Message": "Can i play games"
+    },
+    {
+      "Timestamp": "2026-06-21T22:23:25.346516Z",
+      "Role": "bot",
+      "Message": "Available games:\n\n1. Quiz\n2. Trivia\n3. Hangman\n4. Password Strength Checker\n\nYou can click the game buttons above or type the game name!"
+    },
+    {
+      "Timestamp": "2026-06-21T22:23:40.3047384Z",
+      "Role": "user",
+      "Message": "Quiz"
+    },
+    {
+      "Timestamp": "2026-06-21T22:23:40.3101686Z",
+      "Role": "bot",
+      "Message": "I can assist with cybersecurity topics like: passwords, phishing, malware, two-factor authentication, VPNs, privacy, firewalls, social engineering, and scam reporting. Which would you like to explore?"
+    },
+    {
+      "Timestamp": "2026-06-21T22:38:21.1470376Z",
+      "Role": "user",
+      "Message": "Kanya"
+    },
+    {
+      "Timestamp": "2026-06-21T22:38:21.1631138Z",
+      "Role": "bot",
+      "Message": "Welcome Kanya! I am KANYA SHIELD, your Cybersecurity Awareness Assistant. I\u0027m here to help you stay safe online and learn about cybersecurity. What would you like to know?"
+    },
+    {
+      "Timestamp": "2026-06-21T22:38:26.339128Z",
+      "Role": "user",
+      "Message": "\uD83D\uDD10 Password Security"
+    },
+    {
+      "Timestamp": "2026-06-21T22:38:26.3405505Z",
+      "Role": "bot",
+      "Message": "Password security is the practice of protecting user accounts with strong, unique passwords and authentication methods. A strong password has 12\u002B characters with uppercase, lowercase, numbers, and symbols. Key practices: use a password manager for unique passwords on each site, enable 2FA for important accounts, avoid reusing passwords, never share passwords, and change them if you suspect a breach."
+    },
+    {
+      "Timestamp": "2026-06-21T22:38:42.2274798Z",
+      "Role": "user",
+      "Message": "Can you tell me a joke"
+    },
+    {
+      "Timestamp": "2026-06-21T22:38:42.2292499Z",
+      "Role": "bot",
+      "Message": "What\u0027s a cybersecurity expert\u0027s favorite exercise? Running firewalls!"
+    },
+    {
+      "Timestamp": "2026-06-21T22:39:01.1081826Z",
+      "Role": "user",
+      "Message": "Can i play games"
+    },
+    {
+      "Timestamp": "2026-06-21T22:39:01.1174041Z",
+      "Role": "bot",
+      "Message": "Available games:\n\n1. Quiz\n2. Trivia\n3. Hangman\n4. Password Strength Checker\n\nYou can click the game buttons above or type the game name!"
+    },
+    {
+      "Timestamp": "2026-06-21T22:39:19.4552651Z",
+      "Role": "user",
+      "Message": "1. Quiz"
+    },
+    {
+      "Timestamp": "2026-06-21T22:39:19.460614Z",
+      "Role": "bot",
+      "Message": "I specialize in cybersecurity topics. Would you like to know about: passwords, phishing, malware, privacy, 2FA, VPNs, firewalls, or how to report a scam?"
+    },
+    {
+      "Timestamp": "2026-06-21T22:39:39.0680327Z",
+      "Role": "user",
+      "Message": "No i want to play games"
+    },
+    {
+      "Timestamp": "2026-06-21T22:39:39.0726913Z",
+      "Role": "bot",
+      "Message": "Available games:\n\n1. Quiz\n2. Trivia\n3. Hangman\n4. Password Strength Checker\n\nYou can click the game buttons above or type the game name!"
+    },
+    {
+      "Timestamp": "2026-06-21T22:40:00.1097076Z",
+      "Role": "user",
+      "Message": "Hangman"
+    },
+    {
+      "Timestamp": "2026-06-21T22:40:00.1162994Z",
+      "Role": "bot",
+      "Message": "Let me help you with cybersecurity! I can answer questions about phishing, passwords, malware, privacy, VPNs, firewalls, ransomware, or security best practices. What interests you?"
+    },
+    {
+      "Timestamp": "2026-06-21T22:53:03.3447541Z",
+      "Role": "user",
+      "Message": "Kanya"
+    },
+    {
+      "Timestamp": "2026-06-21T22:53:03.3670532Z",
+      "Role": "bot",
+      "Message": "Welcome Kanya! I am KANYA SHIELD, your Cybersecurity Awareness Assistant. I\u0027m here to help you stay safe online and learn about cybersecurity. What would you like to know?"
+    },
+    {
+      "Timestamp": "2026-06-21T22:53:20.2150489Z",
+      "Role": "user",
+      "Message": "Can i play games"
+    },
+    {
+      "Timestamp": "2026-06-21T22:53:20.2214965Z",
+      "Role": "bot",
+      "Message": "Available games:\n\n1. Quiz\n2. Trivia\n3. Hangman\n4. Password Strength Checker\n\nYou can click the game buttons above or type the game name!"
+    },
+    {
+      "Timestamp": "2026-06-21T22:53:32.5968599Z",
+      "Role": "user",
+      "Message": "Quiz Game"
+    },
+    {
+      "Timestamp": "2026-06-21T22:53:32.601437Z",
+      "Role": "bot",
+      "Message": "I\u0027d like to help! Could you ask about one of these topics: phishing, passwords, malware, ransomware, two-factor authentication, privacy, VPNs, firewalls, social engineering, or scams?"
+    },
+    {
+      "Timestamp": "2026-06-21T22:53:52.9255984Z",
+      "Role": "user",
+      "Message": "Scams"
+    },
+    {
+      "Timestamp": "2026-06-21T22:53:52.9301961Z",
+      "Role": "bot",
+      "Message": "Report scams to the FTC and local law enforcement to help protect others."
+    },
+    {
+      "Timestamp": "2026-06-21T22:54:06.1651452Z",
+      "Role": "user",
+      "Message": "tell me more"
+    },
+    {
+      "Timestamp": "2026-06-21T22:54:06.1697101Z",
+      "Role": "bot",
+      "Message": "Report scams to the FTC and local law enforcement to help protect others."
+    },
+    {
+      "Timestamp": "2026-06-21T22:54:19.1181776Z",
+      "Role": "user",
+      "Message": "goodbye"
+    },
+    {
+      "Timestamp": "2026-06-21T22:54:19.1238137Z",
+      "Role": "bot",
+      "Message": "Take care, Kanya! Thanks for spending time with KANYA SHIELD. Stay secure and be well! \uD83D\uDEE1\uFE0F\n\n[App will close in a moment...]"
+    },
+    {
+      "Timestamp": "2026-06-25T19:54:39.8135364Z",
+      "Role": "user",
+      "Message": "Kanya"
+    },
+    {
+      "Timestamp": "2026-06-25T19:54:39.8564005Z",
+      "Role": "bot",
+      "Message": "Welcome Kanya! I am KANYA SHIELD, your Cybersecurity Awareness Assistant. I\u0027m here to help you stay safe online and learn about cybersecurity. What would you like to know?"
+    },
+    {
+      "Timestamp": "2026-06-25T19:55:05.0338326Z",
+      "Role": "user",
+      "Message": "Can you tell me a Joke"
+    },
+    {
+      "Timestamp": "2026-06-25T19:55:05.0387551Z",
+      "Role": "bot",
+      "Message": "Why do cybersecurity experts never get lonely? Because they\u0027re always making connections!"
+    },
+    {
+      "Timestamp": "2026-06-25T19:55:34.561192Z",
+      "Role": "user",
+      "Message": "Can we play games"
+    },
+    {
+      "Timestamp": "2026-06-25T19:55:34.5683756Z",
+      "Role": "bot",
+      "Message": "Available games:\n\n1. Quiz\n2. Trivia\n3. Hangman\n4. Password Strength Checker\n\nYou can click the game buttons above or type the game name!"
+    },
+    {
+      "Timestamp": "2026-06-25T19:56:07.9265199Z",
+      "Role": "user",
+      "Message": "4. Password Strength Checker"
+    },
+    {
+      "Timestamp": "2026-06-25T19:56:07.9293376Z",
+      "Role": "bot",
+      "Message": "A password manager securely stores and generates unique passwords for each account. Use reputable managers (Bitwarden, 1Password) and protect them with a strong master password and 2FA."
+    },
+    {
+      "Timestamp": "2026-06-25T19:57:06.4472199Z",
+      "Role": "user",
+      "Message": "Okay lets now Play the Quiz game"
+    },
+    {
+      "Timestamp": "2026-06-25T19:57:06.4546548Z",
+      "Role": "bot",
+      "Message": "Let me help you with cybersecurity! I can answer questions about phishing, passwords, malware, privacy, VPNs, firewalls, ransomware, or security best practices. What interests you?"
+    },
+    {
+      "Timestamp": "2026-06-25T19:58:53.2342777Z",
+      "Role": "user",
+      "Message": "Kanya"
+    },
+    {
+      "Timestamp": "2026-06-25T19:58:53.2487527Z",
+      "Role": "bot",
+      "Message": "Welcome Kanya! I am KANYA SHIELD, your Cybersecurity Awareness Assistant. I\u0027m here to help you stay safe online and learn about cybersecurity. What would you like to know?"
+    },
+    {
+      "Timestamp": "2026-06-25T19:59:12.5898574Z",
+      "Role": "user",
+      "Message": "Play Quiz game"
+    },
+    {
+      "Timestamp": "2026-06-25T19:59:12.5971417Z",
+      "Role": "bot",
+      "Message": "I\u0027m here to help with cybersecurity! Ask me about passwords, phishing, malware, privacy, VPNs, firewalls, ransomware, identity theft, or how to stay safe online."
+    },
+    {
+      "Timestamp": "2026-06-25T21:17:06.6863748Z",
+      "Role": "user",
+      "Message": "Kanya"
+    },
+    {
+      "Timestamp": "2026-06-25T21:17:06.7017982Z",
+      "Role": "bot",
+      "Message": "Welcome Kanya! I am KANYA SHIELD, your Cybersecurity Awareness Assistant. I\u0027m here to help you stay safe online and learn about cybersecurity. What would you like to know?"
+    },
+    {
+      "Timestamp": "2026-06-25T21:17:40.3217686Z",
+      "Role": "user",
+      "Message": "Show activity log"
+    },
+    {
+      "Timestamp": "2026-06-25T21:17:40.3277149Z",
+      "Role": "bot",
+      "Message": "Let me help you with cybersecurity! I can answer questions about phishing, passwords, malware, privacy, VPNs, firewalls, ransomware, or security best practices. What interests you?"
+    }
+  ],
+  "ThemePreference": "Dark",
+  "FirstVisit": "2026-06-21T21:53:01.0115904Z",
+  "LastVisit": "2026-06-21T21:53:01.0115908Z",
+  "TotalVisits": 1,
+  "ConversationIndexForContinuation": 0,
+  "QuizHighScore": 0,
+  "TriviaCorrectAnswers": 0,
+  "TotalGamesPlayed": 0,
+  "GameScores": {}
+}
