@@ -130,9 +130,11 @@ Student Number: ST10490015
 12. Final integration test passed, README updated with setup instructions
 
 ## Releases
--
--
--
+- v3.0 – Task Assistant + JSON storage
+
+- v3.1 – Quiz + Activity Log
+
+- v3.2 – Final integrated version
 
 ## Continuous Integration
 This project uses GitHub Actions to automatically build and verify the code.
