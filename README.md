@@ -1,50 +1,79 @@
 # CyberSecurityChatBot-Part3
-POE
+## POE 
 
-## Project Overview
-This is the final submission for **PROG6221 – Programming 2A**.  
-It extends the chatbot built in Part 1 (console) and Part 2 (WPF GUI) with **Part 3 features**:
-
-- Task Assistant with Reminders (JSON storage, CRUD operations)  
-- Cybersecurity Quiz Mini‑Game (10+ questions, immediate feedback, final score)  
-- NLP Simulation (flexible phrasing detection)  
-- Activity Log (records actions, shows last 5–10 entries, “show more” option)  
-
-All features from Parts 1 and 2 remain functional: voice greeting, ASCII art, keyword responses, sentiment detection, memory, and follow‑up flow.
+# KanyaShield Chatbot  
 
 ---
 
-## Author
-- **Name:** Kanya  
-- **Student Number:** [ST10490015]
+## Overview  
+KanyaShield is a **Cybersecurity Awareness Chatbot** developed in C#.  
+The chatbot is designed to educate users about online safety, cyber threats, and best security practices.  
+
+This project evolved across three parts:  
+- **Part 1:** Console chatbot with voice greeting, ASCII art, and keyword responses.  
+- **Part 2:** WPF GUI chatbot with sentiment detection, memory, and follow‑up flow.  
+- **Part 3:** Final GUI chatbot with Task Assistant, Quiz, NLP simulation, and Activity Log.  
 
 ---
 
-## Features Across Parts 1–3
-- Voice greeting (`greeting.wav`) plays on launch  
-- ASCII art displayed in GUI header  
-- Keyword recognition for cybersecurity topics  
-- Sentiment detection with automatic tips  
+## Features  
+
+### Part 1  
+- Voice greeting using audio playback  
+- ASCII art logo display  
+- Interactive chatbot with user input  
+- 29 cybersecurity awareness questions  
+- Typing animation for better user experience  
+- Input validation and error handling  
+
+### Part 2  
+- GUI interface built with WPF  
+- Sentiment detection (e.g., “I am worried about phishing”)  
+- Automatic tips based on detected sentiment  
 - Memory feature (remembers user’s name)  
 - Follow‑up flow (“tell me more”)  
-- Task Assistant with JSON storage (add, view, complete, delete)  
-- Quiz mini‑game with 10+ questions and feedback  
-- NLP intent detection for natural phrasing  
-- Activity log with timestamps and “show more”  
+
+### Part 3  
+- **Task Assistant with Reminders**  
+  - Add, view, complete, and delete tasks  
+  - Tasks stored in `tasks.json` using JSON  
+  - Reminder system integrated into chatbot flow  
+- **Cybersecurity Quiz Mini‑Game**  
+  - 10+ questions covering phishing, passwords, safe browsing, social engineering  
+  - Immediate feedback after each answer  
+  - Final score and message at the end  
+- **NLP Simulation**  
+  - Flexible keyword detection using varied phrasing  
+  - Handles natural requests like “remind me to update my password tomorrow”  
+- **Activity Log**  
+  - Records chatbot actions with timestamps  
+  - Shows last 5–10 entries with “show more” option  
 
 ---
 
-## Prerequisites
-- **Visual Studio 2022**  
-- **.NET 8.0**  
-- **Newtonsoft.Json NuGet package**  
+## Purpose  
+The purpose of this chatbot is to:  
+- Educate users about cybersecurity  
+- Promote safe online behavior  
+- Help prevent cyber threats such as phishing, malware, and scams  
 
 ---
 
-## Setup Instructions
+## Technologies Used  
+- C#  
+- .NET 8.0  
+- WPF / WinForms (GUI)  
+- Newtonsoft.Json (NuGet package)  
+- GitHub (Version Control)  
+- GitHub Actions (CI/CD)  
+
+---
+
+## How to Run  
 1. Clone the repository:
    ```bash
 git clone https://github.com/Kanya-12/CyberSecurityChatBot-Part3
+
 2. Open the solution in Visual Studio 2022.
 3. Install Newtonsoft.Json via NuGet:
     - Right‑click project → Manage NuGet Packages → Search “Newtonsoft.Json” → Install.
@@ -52,3 +81,79 @@ git clone https://github.com/Kanya-12/CyberSecurityChatBot-Part3
 5. Build and run the project.
 6. tasks.json will be auto‑created when the first task is added
 
+## Example Topics Covered
+- Phishing attacks
+  
+- Strong passwords
+  
+- Malware & ransomware
+  
+- Safe browsing
+  
+- Social engineering
+  
+- Data privacy
+  
+- Two‑factor authentication
+  
+- Privacy settings
+  
+- Data backup
+
+## Author
+Kanya Kapo  
+Student Number: ST10490015
+
+## GitHub Commits (Project Development)
+1. Initial project setup
+
+2. Added voice greeting
+
+3. Added ASCII art
+
+4. Implemented user input
+
+5. Added chatbot responses
+
+6. Improved UI and validation
+
+7. Added JSON task storage with TaskStorageHelper and CyberTask model
+
+8. Added Task Assistant panel with add, view, complete, and delete via JSON file
+
+9. Added cybersecurity quiz mini‑game with 10+ questions and immediate feedback
+
+10. Added activity log with timestamps, 10 entry limit, and show more option
+
+11. Expanded NLP to detect task, quiz, and log intents from varied phrasings
+
+12. Final integration test passed, README updated with setup instructions
+
+## Releases
+-
+-
+-
+
+## Continuous Integration
+This project uses GitHub Actions to automatically build and verify the code.
+
+## Video Presentation
+Unlisted YouTube link: [ ]
+
+Demonstrates:
+
+- Voice greeting + ASCII art
+
+- Keyword responses, sentiment detection, memory, follow‑up flow
+
+- Task Assistant CRUD operations with JSON
+
+- Quiz mini‑game with feedback and final score
+
+- NLP intent detection with varied phrasing
+
+- Activity log with timestamps and “show more”
+
+- Code walkthrough (TaskStorageHelper, QuizManager, ActivityLogger, ChatBot/KeywordResponder)
+
+- GitHub commit history, 3 releases, and Actions green tick
